@@ -14,6 +14,6 @@ mongoose.connect('mongodb+srv://arnit2004:arnitttt@cluster0.bq7n3pz.mongodb.net/
 
 app.use('/api/entities', entityRoutes);
 
-app.listen(3001, () => {
-    console.log('Server running on port 3001');
+app.listen(10000, () => {
+    console.log('Server running on port 10000');
 });
